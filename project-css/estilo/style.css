@@ -1,0 +1,70 @@
+body{
+    background-color: gainsboro;
+}
+
+#paragraph01{
+    color: gold;
+    font-size: 1.5em;
+}
+
+#paragraph02{
+    color: indigo;
+    font-weight: 700;
+    text-align: right;
+    text-decoration: underline;
+}
+
+#paragraph03{
+    text-align: center;
+}
+
+#paragraph06{
+    border: rgb(250, 255, 255) 1px solid;
+    color: #ffaefa;
+    background-color: hsl(9, 100%, 64%);
+    background: linea;
+    /*H = hue = Matiz; S = saturation = Saturação; L = lightness = Luminosidade; A = Alpha Channel = Opacidade*/
+    background-color: hsla(100, 100%, 100%, 0.4);
+}
+
+p{
+    text-align: justify;
+}
+
+abbr:hover{
+    /*Usada para explicar algo, abreviação*/
+    /*hover: "flutuar, passar por cima"; ação de passar o mouse por cima do elemento*/
+    color: red;
+    cursor: pointer;
+    background-color: rg( 10%, 10%, 100%);
+}
+
+.format{
+    background-color: khaki;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+#jailsonname{
+    border: red 2px solid;
+    max-width: max-content;
+    font-size: larger;
+    padding: 20px 100px;
+    /*padding-left: 80px;
+    padding-right: 120px;
+    padding-top: 100px;
+    padding-bottom: 90px;*/
+}
+
+#jailsonname2{
+    margin-left: 90px;
+    margin-top: 300px;
+    margin-right: 200px;
+    margin-bottom: 100px;
+}
+
+/*  09/08  */
+
+a{
+    text-decoration: none;
+}

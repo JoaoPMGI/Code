@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="description" content="Formatações de texto no HTML5" />
+    <meta name="author" content="João Pedro Mendes Gomes" />
+    <meta name="keywords" content="Formatações, Texto, HTML5" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formatações de Texto</title>
+    <link rel="stylesheet" href="estilo/style.css" />
+    <style>
+      body {
+        background-color: tomato;
+      }
+    </style>
+  </head>
+  <body style="background-color: #ffaaff">
+    <!-- strong e b sao tags que negritam, mas cada uma tem a sua importancia, sendo strong usado para um conteudo textual mais importante; -->
+    <p id="paragraph01">
+      Lorem ipsum dolor sit amet consectetur
+      <b>Tag Bold ! (Deixa em negrito; apenas negrita)</b> adipisicing elit.
+      Totam, sit libero! Mollitia dolores a atque quasi reprehenderit quas
+      dignissimos praesentium consequatur deserunt eos eveniet dolorum ea iure
+      porro, debitis voluptate!
+    </p>
+    <p id="paragraph02">
+      Omnis facere sequi magnam
+      <strong
+        >Tag Strong ! (Traz um grau de importancia ao conteudo
+        negritado)</strong
+      >
+      maiores, tempore quos repellendus laboriosam adipisci temporibus ea, nobis
+      odit unde, dolorem minus provident quibusdam architecto soluta rem
+      voluptatum doloremque sit magni debitis praesentium. Sed, debitis.
+    </p>
+    <p>
+      Temporibus, culpa numquam <i>Tag I ! (Deixa o texto em italico)</i> nemo
+      ducimus cupiditate repellendus velit odit rerum fuga iure neque quidem
+      aliquam ipsum aliquid quod doloremque eum, quibusdam nam? Reprehenderit,
+      magni sit. Atque illo eligendi architecto vero.
+    </p>
+    <p>
+      Tempore ullam, debitis
+      <em
+        >Tag Em ! (Enfatizado; mesmo efeito que o italico porem, semanticamente
+        ele é mais importante que o i)</em
+      >
+      exercitationem illo perspiciatis voluptate at reprehenderit earum quidem a
+      nihil unde optio rerum animi cupiditate obcaecati nisi placeat aspernatur
+      veritatis in doloribus dolores. Veniam provident natus minus?
+    </p>
+    <p>
+      Est incidunt
+      <mark style="background-color: rgb(170, 209, 91)"
+        >Tag Mark ! (Grifa o texto; destaca o conteudo preenchendo o
+        fundo)</mark
+      >
+      obcaecati, vero quidem, eius error ad debitis, aspernatur molestiae veniam
+      cumque praesentium quae dolor sit hic! Ut beatae hic sapiente veritatis
+      molestias delectus praesentium nostrum nulla. Id, velit.
+    </p>
+    <p class="format" id="paragraph06">
+      Doloribus <small>Tag Small ! (Deixa o texto pequeno)</small> ipsum quia
+      sint veniam soluta ipsa illum, asperiores magnam necessitatibus expedita
+      aliquid eveniet harum esse laudantium numquam maxime quis! Quis delectus
+      harum saepe perspiciatis laborum vitae odit accusamus porro.
+    </p>
+    <p class="format">
+      Sit nisi <del>Tag Dell (Risca o conteudo textual)</del> dicta
+      <s>Tag sliced (s)</s> architecto nobis eos ullam labore eum officia? Vel
+      aspernatur itaque assumenda. Quisquam, commodi. Adipisci sapiente
+      repellendus dolorum dolores obcaecati aut ad placeat provident recusandae.
+      Quasi, quidem sunt.
+    </p>
+    <p class="format">
+      Consequuntur <ins>Tag Ins (Sublinha o texto)</ins> praesentium illo
+      similique doloremque vitae eos adipisci, ipsum blanditiis amet maiores
+      expedita voluptatem provident tempora odio nesciunt sed delectus et quidem
+      ducimus ut officiis impedit dolore? Earum, quidem enim!
+    </p>
+    <p class="format">
+      Lorem ipsum
+      <sub
+        >Tag Sub (Deixa subscrito uma linha abaixo o conteudo referente a linha
+        padrao de escrita)</sub
+      >
+      dolor sit amet consectetur, adipisicing elit. Dolor totam nobis aliquam
+      alias quia necessitatibus reprehenderit similique, ab porro reiciendis
+      facere perferendis laborum dignissimos quod doloribus distinctio
+      recusandae a! Quaerat!
+    </p>
+    <p>
+      Voluptas aliquid veniam
+      <sup>Tag sup (Subscrito uma linha acima)</sup> tempora rem incidunt quidem
+      quisquam cum! Cumque totam voluptatibus debitis? Molestias hic, quis
+      voluptates ipsum suscipit sit. Quasi sunt possimus quam reprehenderit,
+      assumenda error sapiente eaque corporis.
+    </p>
+    <p id="paragraph03">
+      <abbr title="2(Dois) átomos de Hidrogênio e 1(Um) de Oxigênio"
+        >H<sub>2</sub>O</abbr
+      >
+    </p>
+    <p>
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor
+      cupiditate, harum inventore ipsum placeat magni cum modi, accusantium at,
+      minima distinctio pariatur odio accusamus optio non facilis ut tenetur
+      facere?
+    </p>
+    <p id="jailsonname">Jailson</p>
+    <p id="jailsonname2">Jailson</p>
+    <footer>
+        <address>
+            Desenvolvido por: João Pedro M. Gomes <br>
+            Logradouro: Av. Midlane <br>
+            LoL WR, - São Paulo
+        </address>
+    </footer>
+  </body>
+</html>
+
+<!-- 
+tag = (bold) negrito, é menos importante;
+
+tag = (strong) mesmo efeito do bold, porém é mais importante;
+
+tag = (i) deixa itálico;
+
+tag = (em) mesmo efeito do itálico, porém é mais importante;
+
+tag = (mark) marca o texto;
+
+tag = (small) deixa o texto menor;
+
+tag = (del) deixa o texto riscado;
+
+tag = (ins) sublinhado abaixo do texto; tag = (sub) subscreve a palavra uma linha abaixo;
+
+tag = (sup) subscreve a palavra uma linha acima;
+ -->

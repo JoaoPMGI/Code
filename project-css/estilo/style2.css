@@ -1,0 +1,50 @@
+#link-personalizado {
+  font-family: sans-serif;
+  font-size: 20px;
+  text-decoration: none;
+  color: blue;
+}
+
+#link-personalizado:link {
+  color: blueviolet;
+}
+
+#link-personalizado:visited {
+  color: darkturquoise;
+}
+
+#link-personalizado:hover {
+  color: darkblue;
+  text-decoration: underline;
+  transition: all 0.4s ease-in;
+}
+
+#link-personalizado:active {
+  color: cyan;
+}
+
+#link-personalizado02 {
+  font-family: serif;
+  font-size: 24px;
+  color: black;
+  text-decoration: wavy;
+  background-color: yellow;
+}
+
+#link-personalizado02:link {
+  color: rgb(128, 128, 128);
+  text-decoration: underline;
+}
+
+#link-personalizado02:visited {
+  color: rgb(104, 104, 104);
+}
+
+#link-personalizado02:hover {
+  color: rgb(41, 41, 41);
+  transition: all 0.4s ease-in;
+}
+
+#link-personalizado02:active {
+  color: rgb(219, 219, 219);
+}
