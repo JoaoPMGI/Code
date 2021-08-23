@@ -45,8 +45,8 @@ img {
   padding: 20px;
   margin: 20px;
   background-color: rgba(0, 0, 0, 0.08);
-  /* border: 0.5px black solid; */
-  /* border-radius: 2%; */
+  width: 350px;
+  height: 200px;
 }
 
 img:hover {
@@ -56,6 +56,10 @@ img:hover {
 }
 
 .conteiner {
+  margin: 5px 37.5%;
+}
+
+.conteiner-adj{
   margin: 5px 37.5%;
 }
 
@@ -92,4 +96,35 @@ img:hover {
   margin: 0px 2.5%;
   padding-bottom: 25px;
   padding-left: 30px;
+}
+
+@media screen and (max-width:920px){
+  img{
+    width: 250px;
+    height: 200px;
+  }
+  .conteiner-adj{
+  margin: 5px 10%;
+  }
+  .conteiner2{
+    display: none;
+  }
+  .img-bd{
+    width: 100%;
+    margin: 0px;
+    background-color: none;
+  }
+  .a-responsive{
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width:440px){
+  img{
+    width: 200px;
+    height: 150px;
+  }
+  .a-responsive{
+    font-size: 12px;
+  }
 }
